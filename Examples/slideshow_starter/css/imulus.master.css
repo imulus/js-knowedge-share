@@ -1,0 +1,193 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus {
+  outline: 0;
+}
+body {
+  line-height: 1;
+  color: black;
+  background: #FFF;
+}
+ol, ul {
+  list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+}
+blockquote, q {
+  quotes: "" "";
+}
+/* -------------------------------------- */
+/* METHODS */
+/* -------------------------------------- */
+/* -------------------------------------- */
+/* UTILITY */
+/* -------------------------------------- */
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0px;
+  line-height: 0px;
+  clear: both;
+  visibility: hidden;
+}
+.clearfix {
+  display: inline-block;
+}
+.clearfix {
+  display: block;
+}
+* html .clearfix {
+  height: 1px;
+}
+.hidden {
+  display: none;
+}
+.replaced {
+  text-indent: -9999em;
+}
+html {
+  min-width: 100%;
+  min-height: 100%;
+  background: #eeeeee;
+  background: -webkit-gradient(linear, left top, left bottom, from(#444444), to(#000000));
+  background: -moz-linear-gradient(top, #444444, #000000);
+}
+body {
+  min-width: 100%;
+  min-height: 100%;
+  position: relative;
+  font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: normal;
+  color: #333;
+  background: none;
+}
+img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+h1 {
+  width: 640px;
+  margin: 50px auto 20px;
+  color: #555;
+  text-shadow: 0 -1px 0 #000000;
+  font-weight: bold;
+  font-size: 34px;
+  letter-spacing: -1px;
+}
+div#gallery {
+  width: 600px;
+  margin: auto;
+  padding: 20px;
+  background: #eeeeee;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#cccccc));
+  background: -moz-linear-gradient(top, #ffffff, #cccccc);
+}
+ul#slides {
+  width: 100%;
+  height: 489px;
+  margin-bottom: 10px;
+  position: relative;
+}
+ul#slides li {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+ul#slides li:first-child {
+  display: block;
+}
+ul#thumbnails li {
+  display: block;
+  float: left;
+  width: 90px;
+  margin-right: 12px;
+}
+ul#thumbnails li:last-child {
+  margin-right: 0px;
+}
